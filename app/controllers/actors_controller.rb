@@ -35,7 +35,7 @@ class ActorsController < ApplicationController
     a.id = params.fetch("the_id")
 
 
-    a.save
+    a.save 
 
     redirect_to("/actors")
 
